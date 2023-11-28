@@ -1,0 +1,78 @@
+body{
+    font-family:verdana;
+}
+body,header,footer,section,article,p{
+    font-family:"tribuchet";
+    margin:0ps;
+
+}
+header{
+    background-color:red;
+    color:  white;
+   
+}
+.LienTitre{
+color:red;
+
+}
+.LienTitre:Visited{
+    color:black;
+}
+.LienTitre:hover {
+    color: yellow; 
+}
+
+.LienTitre:active {
+    color: green;
+}
+header a{
+    text-decoration:none;
+
+}
+.LienTitre.Accueil,
+.LienTitre.Courses,
+.LienTitre.Coach,
+.LienTitre.Inscription {
+    
+    color: purple;
+}
+#Inscription{
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+form {
+    width : 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+#btn1,#btn2 {
+    background-color: #DED983;
+    font-size: 1.2em;
+    color: #345071;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+footer {
+    background-color: red;
+    color: white;
+}
+.Lien, .nav-link   {
+    color: green; 
+  }
+  
+  .Lien, .nav-link :visited {
+    color: black; 
+  }
+  
+  .Lien, .nav-link :hover {
+    color: yellow;
+  }
+  
+  .Lien, .nav-link :active {
+    color: blueviolet ; 
+  }
